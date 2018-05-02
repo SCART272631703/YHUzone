@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  YHUzone
+//
+//  Created by yanghu on 2018/5/2.
+//  Copyright © 2018年 yanghu. All rights reserved.
+//
+
+#ifndef _1_______PrefixHeader_pch
+#define _1_______PrefixHeader_pch
+
+#import "UIView+YHUExtension.h"
+#import "UIBarButtonItem+YHUExtension.h"
+
+#ifdef DEBUG
+#define XMGLog(...) NSLog(__VA_ARGS__)
+#else
+#define XMGLog(...)
+#endif
+
+#define XMGLogFunc XMGLog(@"%s", __func__)
+
+#define XMGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define XMGGlobalBg XMGRGBColor(223, 223, 223)
+#endif
