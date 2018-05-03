@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77072F72209B2762005DA405 /* YHPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77072F71209B2762005DA405 /* YHPlayingViewController.xib */; };
+		77072F75209B445E005DA405 /* YHUPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F74209B445E005DA405 /* YHUPlayingViewController.m */; };
+		77072F7B209B4564005DA405 /* YHUAudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F7A209B4564005DA405 /* YHUAudioPlayerTool.m */; };
+		77072F7E209B45C6005DA405 /* YHUMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F7D209B45C6005DA405 /* YHUMusicTool.m */; };
+		77072F81209B4641005DA405 /* YHULrcTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F80209B4641005DA405 /* YHULrcTool.m */; };
+		77072F84209B46E8005DA405 /* YHUMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F83209B46E8005DA405 /* YHUMusic.m */; };
+		77072F87209B4700005DA405 /* YHULrcLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F86209B4700005DA405 /* YHULrcLine.m */; };
+		77072F8A209B4729005DA405 /* YHULrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F89209B4729005DA405 /* YHULrcView.m */; };
+		77072F8D209B4763005DA405 /* YHULrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F8C209B4763005DA405 /* YHULrcCell.m */; };
+		77072F90209B4782005DA405 /* YHULrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F8F209B4782005DA405 /* YHULrcLabel.m */; };
+		77072F93209B4B4A005DA405 /* NSString+YHUTimeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F92209B4B4A005DA405 /* NSString+YHUTimeExtension.m */; };
+		77072F96209B4B84005DA405 /* CALayer+YHUPauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77072F95209B4B84005DA405 /* CALayer+YHUPauseAimate.m */; };
 		7743ABB12099D6430000A410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7743ABB02099D6430000A410 /* Assets.xcassets */; };
 		7743ABB42099D6430000A410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7743ABB22099D6430000A410 /* LaunchScreen.storyboard */; };
 		7743ABBF2099D6440000A410 /* YHUzoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ABBE2099D6440000A410 /* YHUzoneTests.m */; };
@@ -18,10 +30,6 @@
 		7743ABF02099E16A0000A410 /* YHUTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ABEF2099E16A0000A410 /* YHUTabBar.m */; };
 		7743ABF52099E4680000A410 /* UIView+YHUExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ABF42099E4680000A410 /* UIView+YHUExtension.m */; };
 		7743ABFB2099E8080000A410 /* UIBarButtonItem+YHUExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ABFA2099E8080000A410 /* UIBarButtonItem+YHUExtension.m */; };
-		7743AC052099E95B0000A410 /* YHPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743AC022099E95B0000A410 /* YHPlayingViewController.m */; };
-		7743AC192099EA010000A410 /* YHAudioPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743AC142099EA010000A410 /* YHAudioPlayerTool.m */; };
-		7743AC1A2099EA010000A410 /* YHMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743AC162099EA010000A410 /* YHMusicTool.m */; };
-		7743AC1B2099EA010000A410 /* YHMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743AC182099EA010000A410 /* YHMusic.m */; };
 		7743AC492099EAA30000A410 /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7743AC1E2099EAA30000A410 /* bb@2x.jpg */; };
 		7743AC4A2099EAA30000A410 /* bb_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7743AC1F2099EAA30000A410 /* bb_icon@2x.jpg */; };
 		7743AC4B2099EAA30000A410 /* dzq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7743AC202099EAA30000A410 /* dzq@2x.jpg */; };
@@ -89,7 +97,6 @@
 		7743AD122099EFC40000A410 /* XMGVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ACF42099EFC40000A410 /* XMGVerticalButton.m */; };
 		7743AD132099EFC40000A410 /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743ACF82099EFC40000A410 /* XMGNewViewController.m */; };
 		7743AD1A2099F0230000A410 /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743AD172099F0230000A410 /* XMGMeViewController.m */; };
-		7743AD1C2099F9BD0000A410 /* YHPlayingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7743AD1B2099F9BD0000A410 /* YHPlayingViewController.storyboard */; };
 		C3CAEC9E3B140A8B074F99D0 /* libPods-YHUzone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBD697D3EA0351580FF48EB /* libPods-YHUzone.a */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +119,29 @@
 
 /* Begin PBXFileReference section */
 		68223B0AD54A654752CA81F1 /* Pods-YHUzone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHUzone.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHUzone/Pods-YHUzone.release.xcconfig"; sourceTree = "<group>"; };
+		77072F71209B2762005DA405 /* YHPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHPlayingViewController.xib; sourceTree = "<group>"; };
+		77072F73209B445E005DA405 /* YHUPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUPlayingViewController.h; sourceTree = "<group>"; };
+		77072F74209B445E005DA405 /* YHUPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUPlayingViewController.m; sourceTree = "<group>"; };
+		77072F79209B4564005DA405 /* YHUAudioPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUAudioPlayerTool.h; sourceTree = "<group>"; };
+		77072F7A209B4564005DA405 /* YHUAudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUAudioPlayerTool.m; sourceTree = "<group>"; };
+		77072F7C209B45C6005DA405 /* YHUMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUMusicTool.h; sourceTree = "<group>"; };
+		77072F7D209B45C6005DA405 /* YHUMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUMusicTool.m; sourceTree = "<group>"; };
+		77072F7F209B4641005DA405 /* YHULrcTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHULrcTool.h; sourceTree = "<group>"; };
+		77072F80209B4641005DA405 /* YHULrcTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHULrcTool.m; sourceTree = "<group>"; };
+		77072F82209B46E8005DA405 /* YHUMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUMusic.h; sourceTree = "<group>"; };
+		77072F83209B46E8005DA405 /* YHUMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUMusic.m; sourceTree = "<group>"; };
+		77072F85209B4700005DA405 /* YHULrcLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHULrcLine.h; sourceTree = "<group>"; };
+		77072F86209B4700005DA405 /* YHULrcLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHULrcLine.m; sourceTree = "<group>"; };
+		77072F88209B4729005DA405 /* YHULrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHULrcView.h; sourceTree = "<group>"; };
+		77072F89209B4729005DA405 /* YHULrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHULrcView.m; sourceTree = "<group>"; };
+		77072F8B209B4763005DA405 /* YHULrcCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHULrcCell.h; sourceTree = "<group>"; };
+		77072F8C209B4763005DA405 /* YHULrcCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHULrcCell.m; sourceTree = "<group>"; };
+		77072F8E209B4782005DA405 /* YHULrcLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHULrcLabel.h; sourceTree = "<group>"; };
+		77072F8F209B4782005DA405 /* YHULrcLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHULrcLabel.m; sourceTree = "<group>"; };
+		77072F91209B4B4A005DA405 /* NSString+YHUTimeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YHUTimeExtension.h"; sourceTree = "<group>"; };
+		77072F92209B4B4A005DA405 /* NSString+YHUTimeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHUTimeExtension.m"; sourceTree = "<group>"; };
+		77072F94209B4B84005DA405 /* CALayer+YHUPauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YHUPauseAimate.h"; sourceTree = "<group>"; };
+		77072F95209B4B84005DA405 /* CALayer+YHUPauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YHUPauseAimate.m"; sourceTree = "<group>"; };
 		7743ABA12099D6430000A410 /* YHUzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHUzone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7743ABB02099D6430000A410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7743ABB32099D6430000A410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,14 +166,6 @@
 		7743ABF42099E4680000A410 /* UIView+YHUExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YHUExtension.m"; sourceTree = "<group>"; };
 		7743ABF92099E8080000A410 /* UIBarButtonItem+YHUExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YHUExtension.h"; sourceTree = "<group>"; };
 		7743ABFA2099E8080000A410 /* UIBarButtonItem+YHUExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YHUExtension.m"; sourceTree = "<group>"; };
-		7743AC012099E95B0000A410 /* YHPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPlayingViewController.h; sourceTree = "<group>"; };
-		7743AC022099E95B0000A410 /* YHPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPlayingViewController.m; sourceTree = "<group>"; };
-		7743AC132099EA010000A410 /* YHAudioPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAudioPlayerTool.h; sourceTree = "<group>"; };
-		7743AC142099EA010000A410 /* YHAudioPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAudioPlayerTool.m; sourceTree = "<group>"; };
-		7743AC152099EA010000A410 /* YHMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMusicTool.h; sourceTree = "<group>"; };
-		7743AC162099EA010000A410 /* YHMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMusicTool.m; sourceTree = "<group>"; };
-		7743AC172099EA010000A410 /* YHMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMusic.h; sourceTree = "<group>"; };
-		7743AC182099EA010000A410 /* YHMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMusic.m; sourceTree = "<group>"; };
 		7743AC1E2099EAA30000A410 /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
 		7743AC1F2099EAA30000A410 /* bb_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb_icon@2x.jpg"; sourceTree = "<group>"; };
 		7743AC202099EAA30000A410 /* dzq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq@2x.jpg"; sourceTree = "<group>"; };
@@ -231,7 +253,6 @@
 		7743ACF82099EFC40000A410 /* XMGNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNewViewController.m; sourceTree = "<group>"; };
 		7743AD162099F0230000A410 /* XMGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeViewController.h; sourceTree = "<group>"; };
 		7743AD172099F0230000A410 /* XMGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeViewController.m; sourceTree = "<group>"; };
-		7743AD1B2099F9BD0000A410 /* YHPlayingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YHPlayingViewController.storyboard; sourceTree = "<group>"; };
 		7FBECEA34C374E57F57DEE39 /* Pods-YHUzone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHUzone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHUzone/Pods-YHUzone.debug.xcconfig"; sourceTree = "<group>"; };
 		DDBD697D3EA0351580FF48EB /* libPods-YHUzone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHUzone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -356,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				7743ABFC2099E95B0000A410 /* Controller */,
+				7743AC122099EA010000A410 /* Tools */,
 				7743AC112099EA010000A410 /* Model */,
 				7743ABDB2099D8F80000A410 /* View */,
 			);
@@ -365,6 +387,12 @@
 		7743ABDB2099D8F80000A410 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77072F88209B4729005DA405 /* YHULrcView.h */,
+				77072F89209B4729005DA405 /* YHULrcView.m */,
+				77072F8B209B4763005DA405 /* YHULrcCell.h */,
+				77072F8C209B4763005DA405 /* YHULrcCell.m */,
+				77072F8E209B4782005DA405 /* YHULrcLabel.h */,
+				77072F8F209B4782005DA405 /* YHULrcLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +434,10 @@
 		7743ABF22099E4250000A410 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				77072F91209B4B4A005DA405 /* NSString+YHUTimeExtension.h */,
+				77072F92209B4B4A005DA405 /* NSString+YHUTimeExtension.m */,
+				77072F94209B4B84005DA405 /* CALayer+YHUPauseAimate.h */,
+				77072F95209B4B84005DA405 /* CALayer+YHUPauseAimate.m */,
 				7743ABF32099E4680000A410 /* UIView+YHUExtension.h */,
 				7743ABF42099E4680000A410 /* UIView+YHUExtension.m */,
 				7743ABF92099E8080000A410 /* UIBarButtonItem+YHUExtension.h */,
@@ -418,9 +450,9 @@
 		7743ABFC2099E95B0000A410 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7743AC012099E95B0000A410 /* YHPlayingViewController.h */,
-				7743AD1B2099F9BD0000A410 /* YHPlayingViewController.storyboard */,
-				7743AC022099E95B0000A410 /* YHPlayingViewController.m */,
+				77072F73209B445E005DA405 /* YHUPlayingViewController.h */,
+				77072F74209B445E005DA405 /* YHUPlayingViewController.m */,
+				77072F71209B2762005DA405 /* YHPlayingViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -428,9 +460,10 @@
 		7743AC112099EA010000A410 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7743AC122099EA010000A410 /* Tools */,
-				7743AC172099EA010000A410 /* YHMusic.h */,
-				7743AC182099EA010000A410 /* YHMusic.m */,
+				77072F82209B46E8005DA405 /* YHUMusic.h */,
+				77072F83209B46E8005DA405 /* YHUMusic.m */,
+				77072F85209B4700005DA405 /* YHULrcLine.h */,
+				77072F86209B4700005DA405 /* YHULrcLine.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -438,12 +471,15 @@
 		7743AC122099EA010000A410 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				7743AC132099EA010000A410 /* YHAudioPlayerTool.h */,
-				7743AC142099EA010000A410 /* YHAudioPlayerTool.m */,
-				7743AC152099EA010000A410 /* YHMusicTool.h */,
-				7743AC162099EA010000A410 /* YHMusicTool.m */,
+				77072F7F209B4641005DA405 /* YHULrcTool.h */,
+				77072F80209B4641005DA405 /* YHULrcTool.m */,
+				77072F7C209B45C6005DA405 /* YHUMusicTool.h */,
+				77072F7D209B45C6005DA405 /* YHUMusicTool.m */,
+				77072F79209B4564005DA405 /* YHUAudioPlayerTool.h */,
+				77072F7A209B4564005DA405 /* YHUAudioPlayerTool.m */,
 			);
-			path = Tools;
+			name = Tools;
+			path = Model/Tools;
 			sourceTree = "<group>";
 		};
 		7743AC1C2099EAA30000A410 /* Resources */ = {
@@ -808,6 +844,7 @@
 				7743AC542099EAA30000A410 /* kzxd_icon@2x.jpg in Resources */,
 				7743AC702099EAA30000A410 /* 339744.mp3 in Resources */,
 				7743AC612099EAA30000A410 /* 14945107.lrc in Resources */,
+				77072F72209B2762005DA405 /* YHPlayingViewController.xib in Resources */,
 				7743AD042099EFC40000A410 /* XMGRecommendTagCell.xib in Resources */,
 				7743AC662099EAA30000A410 /* 月半小夜曲.lrc in Resources */,
 				7743AC4C2099EAA30000A410 /* dzq_icon@2x.jpg in Resources */,
@@ -843,7 +880,6 @@
 				7743AC582099EAA30000A410 /* nanquan_icon@2x.jpg in Resources */,
 				7743AC572099EAA30000A410 /* nanquan@2x.jpg in Resources */,
 				7743AC5C2099EAA30000A410 /* zxy_icon@2x.jpg in Resources */,
-				7743AD1C2099F9BD0000A410 /* YHPlayingViewController.storyboard in Resources */,
 				7743AD102099EFC40000A410 /* XMGRecommendUserCell.xib in Resources */,
 				7743AC682099EAA30000A410 /* 10736444.mp3 in Resources */,
 				7743AC4B2099EAA30000A410 /* dzq@2x.jpg in Resources */,
@@ -915,34 +951,41 @@
 			files = (
 				7743ABEA2099E01B0000A410 /* YHUTabBarController.m in Sources */,
 				7743AD012099EFC40000A410 /* XMGWordViewController.m in Sources */,
+				77072F7B209B4564005DA405 /* YHUAudioPlayerTool.m in Sources */,
 				7743AD072099EFC40000A410 /* XMGLoginRegisterViewController.m in Sources */,
 				7743ABE32099D8F80000A410 /* AppDelegate.m in Sources */,
+				77072F8A209B4729005DA405 /* YHULrcView.m in Sources */,
 				7743AD052099EFC40000A410 /* XMGFriendTrendsViewController.m in Sources */,
+				77072F87209B4700005DA405 /* YHULrcLine.m in Sources */,
 				7743AD002099EFC40000A410 /* XMGVoiceViewController.m in Sources */,
 				7743AD112099EFC40000A410 /* XMGTextField.m in Sources */,
 				7743ACFC2099EFC40000A410 /* XMGEssenceViewController.m in Sources */,
 				7743AD0D2099EFC40000A410 /* XMGRecommendCategoryCell.m in Sources */,
-				7743AC1A2099EA010000A410 /* YHMusicTool.m in Sources */,
 				7743AD032099EFC40000A410 /* XMGRecommendTagCell.m in Sources */,
-				7743AC052099E95B0000A410 /* YHPlayingViewController.m in Sources */,
 				7743ACFF2099EFC40000A410 /* XMGVideoViewController.m in Sources */,
 				7743AD0F2099EFC40000A410 /* XMGRecommendUserCell.m in Sources */,
 				7743AD022099EFC40000A410 /* XMGRecommendTag.m in Sources */,
 				7743AD1A2099F0230000A410 /* XMGMeViewController.m in Sources */,
 				7743AD092099EFC40000A410 /* XMGRecommendViewController.m in Sources */,
 				7743AD0B2099EFC40000A410 /* XMGRecommendCategory.m in Sources */,
+				77072F90209B4782005DA405 /* YHULrcLabel.m in Sources */,
+				77072F8D209B4763005DA405 /* YHULrcCell.m in Sources */,
 				7743ABF02099E16A0000A410 /* YHUTabBar.m in Sources */,
-				7743AC192099EA010000A410 /* YHAudioPlayerTool.m in Sources */,
 				7743ABF52099E4680000A410 /* UIView+YHUExtension.m in Sources */,
+				77072F93209B4B4A005DA405 /* NSString+YHUTimeExtension.m in Sources */,
 				7743ACFE2099EFC40000A410 /* XMGRecommendTagsViewController.m in Sources */,
 				7743AD0C2099EFC40000A410 /* XMGRecommendUser.m in Sources */,
 				7743ABED2099E0DC0000A410 /* YHUNavigationController.m in Sources */,
-				7743AC1B2099EA010000A410 /* YHMusic.m in Sources */,
 				7743ACFB2099EFC40000A410 /* XMGAllViewController.m in Sources */,
 				7743AD122099EFC40000A410 /* XMGVerticalButton.m in Sources */,
 				7743AD132099EFC40000A410 /* XMGNewViewController.m in Sources */,
+				77072F96209B4B84005DA405 /* CALayer+YHUPauseAimate.m in Sources */,
 				7743ABE42099D8F80000A410 /* main.m in Sources */,
 				7743ACFD2099EFC40000A410 /* XMGPictureViewController.m in Sources */,
+				77072F81209B4641005DA405 /* YHULrcTool.m in Sources */,
+				77072F84209B46E8005DA405 /* YHUMusic.m in Sources */,
+				77072F75209B445E005DA405 /* YHUPlayingViewController.m in Sources */,
+				77072F7E209B45C6005DA405 /* YHUMusicTool.m in Sources */,
 				7743ABFB2099E8080000A410 /* UIBarButtonItem+YHUExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

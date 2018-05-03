@@ -11,6 +11,8 @@
 
 #import "UIView+YHUExtension.h"
 #import "UIBarButtonItem+YHUExtension.h"
+#import "NSString+YHUTimeExtension.h"
+#import "CALayer+YHUPauseAimate.h"
 
 #ifdef DEBUG
 #define XMGLog(...) NSLog(__VA_ARGS__)

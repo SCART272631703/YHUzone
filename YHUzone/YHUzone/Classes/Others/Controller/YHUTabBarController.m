@@ -7,7 +7,7 @@
 //
 
 #import "YHUTabBarController.h"
-#import "YHPlayingViewController.h"
+#import "YHUPlayingViewController.h"
 
 #import "XMGEssenceViewController.h"
 #import "XMGNewViewController.h"
@@ -71,7 +71,7 @@
     [super viewDidLoad];
     
     // 添加子控制器
-    [self setupChildVc:[[YHPlayingViewController alloc] init] title:@"音乐" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+    [self setupChildVc:[[YHUPlayingViewController alloc] init] title:@"音乐" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     
     [self setupChildVc:[[XMGNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     
