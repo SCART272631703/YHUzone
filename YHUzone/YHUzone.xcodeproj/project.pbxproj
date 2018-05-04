@@ -1135,6 +1135,7 @@
 				GCC_PREFIX_HEADER = YHUzone/Classes/Others/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = YHUzone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sea.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1153,6 +1154,7 @@
 				GCC_PREFIX_HEADER = YHUzone/Classes/Others/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = YHUzone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sea.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";

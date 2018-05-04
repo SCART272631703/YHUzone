@@ -34,6 +34,7 @@
 // 歌词的View
 @property (weak, nonatomic) IBOutlet YHULrcView *lrcView;
 
+
 // 歌词的Label
 @property (weak, nonatomic) IBOutlet YHULrcLabel *lrcLabel;
 
